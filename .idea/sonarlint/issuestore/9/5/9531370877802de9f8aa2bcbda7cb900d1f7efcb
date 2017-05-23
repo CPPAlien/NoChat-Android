@@ -1,0 +1,12 @@
+
+esquid:S1192"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 4 times.(’á¨ãþÿÿÿÿ
+Isquid:S1066"/Merge this if statement with the enclosing one.(÷ËÏ•øÿÿÿÿ
+gsquid:S1871"MThis branch's code block is the same as the block for the branch on line 237.(È¬ï¢þÿÿÿÿ
+asquid:S1871"MThis branch's code block is the same as the block for the branch on line 240.(õë¼j
+tsquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "sameDay".(—›’ã
+ysquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "seconds".(ÅààËýÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(íÍ´¤
+Šsquid:S1845"uRename method "getNowDateTime" to prevent any misunderstanding/clash with method "getNowDatetime" defined on line 58.(Ï™âµ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+;squid:S2111"!Use "BigDecimal.valueOf" instead.(ÅààËýÿÿÿÿ
+4squid:S2131"Use "Integer.toString" instead.(ê“´Ñ

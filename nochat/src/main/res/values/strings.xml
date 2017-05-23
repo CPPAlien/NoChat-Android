@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Uikit</string>
+    <string name="file_select">檔案</string>
+    <string name="take_photo">拍照</string>
+    <string name="image_text">圖文</string>
+    <string name="pic_select">相冊</string>
+    <string name="call_agent">呼叫客服</string>
+    <string name="copy">複製</string>
+    <string name="copied">已複製</string>
+    <string name="date_format">MMMdd日(EEE)</string>
+</resources>

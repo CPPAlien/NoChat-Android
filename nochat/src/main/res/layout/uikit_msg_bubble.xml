@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <ImageView
+        style="@style/avatar.left"
+        android:id="@+id/msg_avatar_left"
+        android:visibility="gone" />
+
+    <ImageView
+        style="@style/avatar.right"
+        android:id="@+id/msg_avatar_right"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/msg_avatar_right"
+        android:layout_toStartOf="@id/msg_avatar_right"
+        android:layout_toRightOf="@id/msg_avatar_left"
+        android:layout_toEndOf="@id/msg_avatar_left">
+        <LinearLayout
+            android:id="@+id/msg_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/msg_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+            <ProgressBar
+                android:id="@+id/msg_progress"
+                android:layout_width="15dip"
+                android:layout_height="15dip"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:indeterminate="true"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@+id/msg_error"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/send_error"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/msg_time_tag"
+                android:textColor="#33538B"
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:drawableEnd="@drawable/msg_check"
+                android:drawableRight="@drawable/msg_check"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

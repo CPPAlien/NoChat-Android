@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical">
+    <TextView
+        android:id="@+id/msgkit_text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone|email|map|web"
+        android:gravity="center_vertical|start"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="3dip"
+        android:maxWidth="222dp"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+</LinearLayout>
